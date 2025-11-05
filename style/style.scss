@@ -17,6 +17,9 @@ img{
     width: 1170px;
 }
 
+
+/* Header Section */
+
 header{
     display: flex;
     justify-content: center;
@@ -40,5 +43,31 @@ nav{
         line-height: 130%;
         text-decoration: none;
         color: #774E2E;
+    }
+}
+
+/* End of Header Section */
+
+footer{
+    background-color: #774E2E;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+
+    img{
+        width: 99px;
+    }
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 130%;
+        color: #FFFFFF;
     }
 }
