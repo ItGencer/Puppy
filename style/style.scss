@@ -1,4 +1,5 @@
 $maxwidth: 100%;
+$brown: #774E2E;
 
 *{
     margin: 0;
@@ -42,11 +43,69 @@ nav{
         font-weight: 500;
         line-height: 130%;
         text-decoration: none;
-        color: #774E2E;
+        color: $brown;
     }
 }
 
 /* End of Header Section */
+
+/* Main Section */
+
+.yummy{
+    display: flex;
+    justify-content: space-between;
+    margin: 110px auto 0;
+
+    &__section{
+        width: 520px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        &__title{
+            font-weight: 800;
+            font-size: 110px;
+            letter-spacing: 0.05em;
+            color: #F37F34;
+            
+            span{
+                font-weight: 800;
+                font-size: 110px;
+                letter-spacing: 0.05em;
+                color: $brown;
+            }
+        }
+
+        &__text{
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 150%;
+            letter-spacing: 0.01em;
+            color: $brown;
+        }
+
+        &__button{
+            padding: 21px 38px;
+            max-width: $maxwidth;
+            width: 343px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 130%;
+            background-color: $brown;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    
+        img{
+            width: 575px;
+        }
+    }
+}
+
+/* End of Main Section */
+
+/* Footer Section */
 
 footer{
     background-color: #774E2E;
@@ -71,3 +130,5 @@ footer{
         color: #FFFFFF;
     }
 }
+
+/* End of Footer Section */
