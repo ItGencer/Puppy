@@ -172,6 +172,69 @@ nav{
     }
 }
 
+.advice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 155px auto;
+
+    &__section{
+        width: 555px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        &__title{
+            font-weight: 800;
+            font-size: 64px;
+            letter-spacing: 0.05em;
+            color: $orange;
+
+            span{
+                font-weight: 800;
+                font-size: 64px;
+                letter-spacing: 0.05em;
+                color: $brown;
+            }
+        }
+
+        &__text{
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 150%;
+            letter-spacing: 0.01em;
+            color: $brown;
+            margin-top: 30px;
+        }
+
+        h4{
+            margin-top: 60px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: 0.01em;
+            color: $brown;
+        }
+
+        ul{
+            margin: 20px 0 0 20px;
+
+            li{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.01em;
+                color: $brown;
+            }
+        }
+    }
+
+    img{
+        width: 555px;
+    }
+}
+
+
 /* End of Main Section */
 
 /* Footer Section */
